@@ -73,19 +73,5 @@ Eğitim Doğruluğu (Train Accuracy): ~%91
 
 Test Doğruluğu (Test Accuracy): ~%86
 
-5. Proje Dokümantasyonu
-
-Klasör Yapısı:
-
-Plaintext
-
-/Pneumonia_Detection_Project
-│
-├── /data                # Örnek X-Ray görüntüleri (Normal/Sick)
-├── train.ipynb          # Kaggle Eğitim Kodları
-├── xray_model.h5        # Eğitilmiş model dosyası 
-├── app.py               # Gradio Arayüz Kodu (Web Uygulaması)
-├── requirements.txt     # Gerekli kütüphaneler (tensorflow, opencv, gradio)
-└── README.md            # Proje kurulum ve kullanım kılavuzu
-6. Sonuç ve Gelecek Çalışmalar
+5. Sonuç ve Gelecek Çalışmalar
 Bu proje ile geliştirilen yapay zeka modeli, akciğer röntgenlerini saniyeler içinde analiz ederek %90'ın üzerinde doğrulukla zatürre tespiti yapabilmektedir. Gradio arayüzü sayesinde teknik bilgisi olmayan sağlık personellerinin de kolayca kullanabileceği bir prototip sunulmuştur. Gelecekte model, COVID-19 ve Tüberküloz gibi diğer akciğer hastalıklarını da kapsayacak şekilde genişletilebilir.
