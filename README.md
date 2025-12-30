@@ -34,6 +34,3 @@ Komutu çalıştırdıktan sonra terminalde verilen linke (örneğin: http://127
 
 Denemek için: https://huggingface.co/spaces/Adam3438/PneumoniaDetection
 
-xray_model.h5: Eğitilmiş yapay zeka modeli.
-
-requirements.txt: Gerekli Python kütüphanelerinin listesi.
