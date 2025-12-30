@@ -1,4 +1,4 @@
-AI Radyolog: X-Ray Görüntülerinden Zatürre Tespiti
+X-Ray Görüntülerinden Zatürre Tespiti
 Bu projede, akciğer röntgen (X-Ray) görüntülerini analiz ederek hastanın Zatürre (Pneumonia) olup olmadığını tespit eden bir derin öğrenme modeli geliştirilmiştir.
 
 Model, Transfer Learning yöntemi kullanılarak VGG16 mimarisi üzerinde eğitilmiştir. Kaggle'daki "Chest X-Ray Images" veri seti kullanılarak eğitilen model, test verileri üzerinde %86 üzeri doğruluk oranına ulaşmıştır. Ayrıca modelin herkes tarafından kolayca kullanılabilmesi için Gradio tabanlı sürükle-bırak destekli bir web arayüzü tasarlanmıştır.
